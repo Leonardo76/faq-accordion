@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* work-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/work-sans-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* work-sans-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../assets/fonts/work-sans-v24-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* work-sans-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/work-sans-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@theme{
+    /* OLD: (default Tailwind) --breakpoint-sm: 640px; --breakpoint-md: 768px; --breakpoint-lg: 1024px; ... */
+    /* NEW: settings aligned to your designs */
+    --breakpoint-sm: 640px;   /* NEW: "small" (optional, between mobile and tablet) */
+    --breakpoint-md: 768px;   /* NEW: tablet */
+    --breakpoint-lg: 1440px;  /* NEW: desktop */
+    --breakpoint-xl: 1600px;  /* NEW: extrapolation for larger screens */
+    --breakpoint-2xl: 1920px; /* NEW: extrapolation for very large screens */
+
+    --color-app-bg: var(--c-purple-100);
+    --color-card-bg: var(--c-white);
+    --color-faq: var(--c-purple-950);
+    --color-divider: var(--c-purple-100);
+    --color-question: var(--c-purple-950);
+    --color-question-active: var(--color-violet-600);
+    --color-answer: var(--c-purple-600);
+}
+
+:root {
+    --c-white: #FFF;
+    --c-black: #000;
+
+    --c-purple-950: #301534;
+    --c-purple-600: #8B6990;
+    --c-purple-100: #F8EEFF;
+
+    --color-violet-600: #AD28EB;
+
+    --font: 'Work Sans';
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font), sans-serif;
+}
