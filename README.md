@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Leonardo76/faq-accordion](https://github.com/Leonardo76/faq-accordion)
+- Live Site URL: [https://accordionfm.netlify.app](https://accordionfm.netlify.app)
 
 ## My process
 
@@ -41,7 +41,8 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- TailwindCss
+- TailwindCSS
+- Motion
 
 ## Author
 
